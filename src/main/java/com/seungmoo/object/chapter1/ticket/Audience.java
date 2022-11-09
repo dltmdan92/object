@@ -1,7 +1,7 @@
 package com.seungmoo.object.chapter1.ticket;
 
 public class Audience {
-    private Bag bag;
+    private final Bag bag;
 
     public Audience(Bag bag) {
         this.bag = bag;
